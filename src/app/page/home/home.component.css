@@ -1,0 +1,23 @@
+h1{
+    color:rgb(0, 162, 255);
+}
+.contenido{
+    width: 300px;
+    margin: 0 auto;
+    box-shadow: 15px 15px 10px  rgb(187, 187, 187);
+    background-color: white;
+    text-align: center;
+    padding-left: 15px;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+input , textarea{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.img{
+    max-width: 100%;
+   
+}

@@ -1,0 +1,25 @@
+
+<div class="contenedor">
+    <h3 class="mb-3 text-center">Form Hijo</h3>
+        <div class="contenido">
+            <div class="mb-3">
+               
+                <input type="text" class="form-control" #nombres placeholder="nombres completos" value="{{nom}}">
+            </div>  
+            <div class="mb-3">
+                <input type="tel" class="form-control" #phone placeholder="999-999-999" value="{{phon}}">
+            </div>
+            <div class="mb-3">
+                <input type="email" class="form-control" #correo placeholder="correo@example.com" value="{{email}}">
+            </div>
+            <div class="mb-3">
+                <textarea class="form-control" #asunto rows="3" value="{{pedido}}"></textarea>
+            </div>
+            <div class="col-auto text-center">
+                <button type="submit" class="btn btn-success mb-3" (click)="muestra(nombres.value, phone.value,
+                correo.value, asunto.value)">Enviar a Padre</button>
+            </div>
+        </div>
+</div>
+
+  
